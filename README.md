@@ -1,6 +1,7 @@
 # small-c-projects
 While I was learning how to code in C, I made these small projects for fun and 
-to get a better undersanding of the language.
+to get a better undersanding of the language. I don't plan on improving these
+in C, just put these here for reference.
 
 ## Conway's game of life
 This program simulates Conway's game of life either in a txt file or in stdout. 
@@ -19,7 +20,8 @@ stdin.
 
 #### main_dynamic.c
 This outputs a sudo-animation in a txt file named "out.txt" by overwriting the
-file every second. This will go on forever, to close the program use the break command in the terminal you used to start the program (usually CTRL + C).
+file every second. This will go on forever, to close the program use the break
+command in the terminal you used to start the program (usually CTRL + C).
 It takes in command line arguments for the file name, if ommited the program
 will ask for the file name.
 
