@@ -23,7 +23,11 @@ This outputs a sudo-animation in a txt file named "out.txt" by overwriting the
 file every second. This will go on forever, to close the program use the break
 command in the terminal you used to start the program (usually CTRL + C).
 It takes in command line arguments for the file name, if ommited the program
-will ask for the file name.
+will ask for the file name.  
+To see the animation, you can use the following in a UNIX terminal:
+```
+watch -n 0.5 'tail -n [a number >= lines in output] out.txt'
+```
 
 
 ## Wordle
@@ -37,4 +41,4 @@ For example, take the input word "genie":
 ![Genie Word example](./wordle/wordle_example.png?raw=true)  
 Here you would input "ygbbg" as the result.
 
-The program will continue until there is 1 or none words left.
+The program will continue until there is 1 or no words left.
